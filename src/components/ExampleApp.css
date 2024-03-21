@@ -1,0 +1,29 @@
+*{
+    box-sizing:border-box;
+}
+
+.ExampleApp{
+    height: 100%;
+    width: 100%;
+    border:2px solid green;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    width:100%;
+    height:auto;
+    border:2px solid blue;
+    display:flex;
+    justify-content:space-between;
+    padding:15px;
+}
+
+.navbar-group{
+    display:flex;
+}
+
+.mosaic-layout{
+    flex: 1;
+    border: 2px solid green;;
+}
