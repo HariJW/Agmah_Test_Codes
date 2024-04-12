@@ -82,6 +82,7 @@ function RGLTest() {
         rowHeight={20}
         compactType={null}
         isBounded={true}
+        isDraggable={false}
         // onDragStart={saveCurrentLayouts}
         // onResizeStart={saveCurrentLayouts}
         // onLayoutChange={(currentLayout, allLayouts) => {
